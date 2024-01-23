@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto; /* Shorthand für margin: auto 0; - horizontal zentrieren */
+  width: 100%;
+}
+
+.site-header {
+  background-image: url("/img/mt-fuij-cherry-blossoms.2000x1325.jpeg") ;
+  background-color: dodgerblue;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 33%;
+  /*An element with greater stack order is always in front of an element with a lower stack order*/
+  z-index: 1000;
+}
+
+.header-content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-right: 4rem;
+  text-align: end;
+  color: black
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; /* Platz für den Header */
+}
+
+article {
+  max-width: 1000px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+video {
+  width: 100%;
+}
+
+.discovery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.discovery-row {
+  display: flex;
+  width: 1000px;
+}
+
+.discovery-item {
+  flex: 1;
+  margin: 10px;
+  height: 200px; /* Hier die gewünschte Höhe der Bilder einstellen */
+  overflow: hidden;
+  border-radius: 8px; /* Optional: runde Ecken */
+}
+
+.discovery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
