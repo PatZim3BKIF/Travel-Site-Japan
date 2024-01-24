@@ -14,7 +14,7 @@ body {
 }
 
 .site-header {
-  background-image: url("/img/mt-fuij-cherry-blossoms.2000x1325.jpeg") ;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.cloudinary.com%2Ffriendly-planet%2Fimage%2Ffetch%2Fq_auto%2Cf_auto%2Fhttps%3A%2F%2Fwww.friendlyplanet.com%2Fmedia%2Fgallery%2Fasia%2Fjapan%2Fmt-fuij-cherry-blossoms.2000x1325.bmp&f=1&nofb=1&ipt=303eefa6ef21b9638a3c928549271faa9f51eafe7f7f41e1e2da4fa2e047ce09&ipo=images") ;
   background-color: dodgerblue;
   background-size: cover;
   background-position: center;
