@@ -20,6 +20,7 @@ body {
   padding-bottom: 500px;
   margin-right: 4rem;
   text-align: end;
+  font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
 
 .title-author > h2:nth-child(1) {
@@ -39,23 +40,28 @@ body {
   font-size: 50px;
 }
 
-.text-content {
+.article-and-img {
   display: flex;
-  margin-top: 150px;
+  margin-top: 50px;
 
 }
 
 .tokyo-article{
   padding: 50px;
+  line-height: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
-.text-content > img:nth-child(1) {
-  width: 500px;
+.article-and-img > img:nth-child(1) {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   margin-left: 100px;
   box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.text-content > p:nth-child(2) {
+.article-and-img > p:nth-child(2) {
   padding-left: 50px;
   padding-right: 50px;
   align-items: center;
@@ -86,13 +92,18 @@ video {
 
 .discovery-row {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .discovery-item {
-  flex: 1;
   margin: 10px;
   aspect-ratio: 1/1;
   border-radius: 8px;
+  max-width:100%;
+  max-height:100%;
+  width:400px;
+  height: 400px;
 }
 
 .discovery-item img {
@@ -105,29 +116,29 @@ video {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 400px 400px;
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.timeout.com%2Fimages%2F105325369%2Fimage.jpg&f=1&nofb=1&ipt=73fa5e011eefef1ca5ad0c6e37fea3d6fbc8fb8d1ecbc5b5b7916a244521b9b6&ipo=images");
   background-size: cover;
-  background-position: center;"
+  background-position: center;
+  background-attachment: fixed;
+  padding: 500px 0px 500px 0;
+}
+
+.footer-content > p:nth-child(2) {
+  padding-left: 18.75rem;
+  padding-right: 18.75rem;
 }
 
 .footer-content {
-  max-width: 500px;
-  display: contents;
+  display: flex;
+  flex-direction: column;
 }
 
-.subscribe-form {
-  justify-content: center;
+.roundimg{
+  border-radius: 50%;
+  width: 50px;
+  max-width: 100%;
+  height: auto;
 }
-
-.subscribe-form > label:nth-child(1) {
-  width: 500px;
-}
-.subscribe-form > label:nth-child(1) > input:nth-child(1) {
-  width: 600px;
-}
-
-
 
 .subscribe-form input {
   flex: 1;
@@ -137,6 +148,7 @@ video {
   border-radius: 0;
   background: transparent;
   color: white;
+  width: 500px;
 }
 
 .subscribe-form button {
@@ -176,4 +188,43 @@ section.discovery-section{
 
 .caption{
   font-weight: 1000;
+}
+
+.titleAndAuthor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.title {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+
+.title > p:nth-child(1) {
+  margin-bottom: 0;
+}
+.title > h2:nth-child(2) {
+  margin-top: 0;
+}
+.author > p:nth-child(1) {
+  margin-top: 10px;
+}
+.author > figure:nth-child(2) {
+  margin-top: 10px;
+}
+
+.text-content{
+  padding-left: 30px;
+  padding-right: 100px;
 }
