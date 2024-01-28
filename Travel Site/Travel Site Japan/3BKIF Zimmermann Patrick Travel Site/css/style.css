@@ -1,0 +1,247 @@
+body {
+  font-family: Raleway,sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.site-header {
+  height: 100%;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperflare.com%2Fstatic%2F724%2F4%2F41%2Freflection-mount-fuji-lake-sunset-wallpaper.jpg&f=1&nofb=1&ipt=c0b08fbb2c4d46bc28ad040dfbc841a63c947a718cb2c4608fc9de7921d0d841&ipo=images");
+  background-size: cover;
+  background-color: dodgerblue;
+  background-attachment: fixed;
+  color: white;
+}
+
+.header-content {
+  padding-top: 500px;
+  padding-bottom: 230px;
+  margin-right: 4rem;
+  text-align: end;
+  font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.title {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+
+.author > p:nth-child(1) {
+  margin-top: 22px;
+}
+
+.title > p:nth-child(1) {
+  margin-bottom: 0;
+}
+.title > h2:nth-child(2) {
+  margin-top: 0;
+}
+
+.title-author > h2:nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+.title-author > p:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.header-content > h1:nth-child(1) {
+  font-size: 150px;
+}
+
+.header-content > p:nth-child(2) {
+  font-size: 50px;
+}
+
+.tokyo-article{
+  padding: 50px;
+  line-height: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.article-and-img > img:nth-child(1) {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-left: 100px;
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.article-and-img > p:nth-child(2) {
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  display: flex;
+  line-height: 40px;
+}
+
+
+article {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+body > main:nth-child(2) > article:nth-child(2) > p:nth-child(2) {
+  line-height: 60px;
+}
+
+
+video {
+  width: 100%;
+}
+
+.discovery-headline{
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.discovery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.discovery-item {
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.discovery-item img {
+  width: calc(100vw/3.3);
+  min-width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+section.discovery-section{
+  margin: 6.25rem 2.5rem;
+}
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.timeout.com%2Fimages%2F105325369%2Fimage.jpg&f=1&nofb=1&ipt=73fa5e011eefef1ca5ad0c6e37fea3d6fbc8fb8d1ecbc5b5b7916a244521b9b6&ipo=images");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 500px 0px 500px 0;
+}
+
+.footer-content > p:nth-child(2) {
+  padding-left: 18.75rem;
+  padding-right: 18.75rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.roundimg{
+  border-radius: 50%;
+  width: 50px;
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.onsen {
+  display: flex;
+}
+
+.onsen-text > p:nth-child(2) {
+  line-height: 30px;
+}
+
+.onsen-img > img:nth-child(1) {
+  width: 30rem;
+  margin-left: 20px;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.onsen-img > figcaption:nth-child(2) {
+  text-align: center;
+}
+
+
+.onsen-text {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  width: 500px;
+}
+
+.subscribe-form button {
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  border: 1px solid;
+}
+
+.social-media-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 50px 5px 0;
+}
+
+.icon {
+  margin-right: 2px;
+}
+
+img.icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.lead-video {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.caption{
+  font-weight: 1000;
+}
+
+.titleAndAuthor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+
+
+
+.text-content{
+  padding-left: 30px;
+  padding-right: 100px;
+}
