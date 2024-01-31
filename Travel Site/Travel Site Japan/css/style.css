@@ -145,7 +145,7 @@ section.discovery-section{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 31.25rem 0 31.25rem 0;
+  padding: 20vw 0 10vw 0;
 }
 
 .footer-content > p:nth-child(2) {
