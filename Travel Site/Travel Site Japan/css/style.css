@@ -2,16 +2,15 @@ body {
   font-family: Raleway,sans-serif;
   font-size: 1.375rem;
   margin: 0;
-  padding: 0;
 }
 
 
 .site-header {
-  height: 100%;
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperflare.com%2Fstatic%2F724%2F4%2F41%2Freflection-mount-fuji-lake-sunset-wallpaper.jpg&f=1&nofb=1&ipt=c0b08fbb2c4d46bc28ad040dfbc841a63c947a718cb2c4608fc9de7921d0d841&ipo=images");
   background-size: cover;
   background-color: dodgerblue;
   background-attachment: fixed;
+  background-position: center;
   color: white;
 }
 
@@ -20,7 +19,6 @@ body {
   padding-bottom: 26rem;
   margin-right: 4rem;
   text-align: end;
-  font-size: calc(1rem + (28 - 16) * ((100vw - 20rem) / (1600 - 320)));
 }
 
 .header-content > h1:nth-child(1) {
@@ -102,9 +100,11 @@ video {
   width: 100%;
 }
 
-.discovery-headline{
+.discovery-headline {
   padding-left: 2.5rem;
   font-size: 2.5rem;
+  align-items: center;
+  display: flex;
 }
 
 .discovery-row {
@@ -173,12 +173,6 @@ section.discovery-section{
 
 }
 
-@media screen and (min-width: 93.75rem) {
-  .onsen {
-    flex-direction: row;
-  }
-}
-
 @media screen and (max-width: 93.75rem) {
   .onsen {
     flex-direction: column;
@@ -226,11 +220,9 @@ section.discovery-section{
 }
 
 .subscribe-form input {
-  flex: 1;
   padding: 0.625rem;
   border: none;
   border-bottom: 1px solid #ccc;
-  border-radius: 0;
   background: transparent;
   color: white;
   width: 31.25rem;
