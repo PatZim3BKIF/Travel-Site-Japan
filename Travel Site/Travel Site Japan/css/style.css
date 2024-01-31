@@ -15,18 +15,18 @@ body {
 }
 
 .header-content {
-  padding-top: 31.25rem;
-  padding-bottom: 26rem;
+  padding-top: 7vw;
+  padding-bottom: 20vw;
   margin-right: 4rem;
   text-align: end;
 }
 
 .header-content > h1:nth-child(1) {
-  font-size: 9.375rem;
+  font-size: 130px;
 }
 
 .header-content > p:nth-child(2) {
-  font-size: 3.125rem;
+  font-size: 35px;
 }
 
 .title {
